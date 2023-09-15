@@ -5,9 +5,11 @@
   text-decoration: none;
   color: inherit;
   display: block;
+  transition: all .3s;
 }
 
 .portfolio__item:hover {
 cursor: pointer;
 transform: scale(1.05);
+transition: all .3s;
 }
