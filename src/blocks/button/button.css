@@ -1,0 +1,14 @@
+.button {
+  margin-top: 20px;
+  padding: 0 20px;
+  border-radius: 4px;
+  height: 60px;
+  background: teal;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button:hover {
+  transform: scale(1.05);
+}

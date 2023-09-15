@@ -1,0 +1,7 @@
+.header__socials_item {
+  margin-right: 10px;
+}
+
+.header__socials_item:last-child {
+  margin-right: 0;
+}

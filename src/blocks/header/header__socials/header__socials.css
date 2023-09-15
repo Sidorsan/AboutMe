@@ -1,0 +1,7 @@
+.header__socials {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin-left: 0;
+  height: 24px;
+}

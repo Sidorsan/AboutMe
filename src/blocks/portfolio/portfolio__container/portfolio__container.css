@@ -1,0 +1,8 @@
+.portfolio__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
+  gap: 20px 17px;
+  list-style-type: none;
+  padding: 0 15px;
+  margin: 0;
+}

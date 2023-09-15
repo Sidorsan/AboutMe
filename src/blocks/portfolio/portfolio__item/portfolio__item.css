@@ -1,0 +1,13 @@
+.portfolio__item {
+  box-sizing: border-box;
+  flex-basis: 33.33%;
+  /* padding: 10px; */
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.portfolio__item:hover {
+cursor: pointer;
+transform: scale(1.05);
+}
