@@ -5,3 +5,8 @@
 .header__socials_item:last-child {
   margin-right: 0;
 }
+
+.header__socials_item:hover {
+  transform: scale(1.2);
+  transition: all .3s;
+}
