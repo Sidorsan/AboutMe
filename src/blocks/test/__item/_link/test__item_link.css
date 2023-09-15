@@ -1,0 +1,10 @@
+.test__item_link {
+  text-decoration: none;
+  color: #fff;
+  margin: auto 0 auto 10px;
+  transition: 0.3s;
+}
+
+.test__item_link:hover {
+  color: #a09d9d;
+}

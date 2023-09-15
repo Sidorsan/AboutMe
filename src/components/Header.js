@@ -5,6 +5,7 @@ function Header(props) {
     <header className='header'>
       <div className='header__brand'>
         <p>{props.brand}</p></div>
+     
       <ul className="header__socials">
         <li className='header__socials_item'>
           <a className="header__socials-link" href="https://www.youtube.com/@aleksandrsidorenko5258" target="_blank" rel="noreferrer">

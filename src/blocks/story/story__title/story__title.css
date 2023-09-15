@@ -1,6 +1,6 @@
 .story__title{
   margin: 0;
-  padding: 0 15px;
+  padding: 0 30px;
 }
 @media screen and (max-width: 320px) {
   .story__title {
