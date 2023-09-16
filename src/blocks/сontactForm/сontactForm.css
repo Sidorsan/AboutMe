@@ -1,19 +1,21 @@
 .contactForm {
   margin: 50px auto;
-  width: 500px;
-}
 
+}
 
 
 .contactForm input,
 .contactForm textarea {
   display: block;
-  width: 100%;
+  width: 80%;
   padding: 10px 15px;
+  margin: auto;
   border-radius: 4px;
   border: 1px solid #e5e5e5;
   font-size: 16px;
 }
+
+
 
 .contactForm .error {
   color: red;
