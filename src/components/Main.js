@@ -9,13 +9,13 @@ import ContactForm from './ContactForm';
 function Main({
   onCardClick,
 }) {
-  const [state, setState] = React.useState(true);
+  const [stateForm, setStateForm] = React.useState(false);
 
   function openForm() {
-    setState(false);
+    setStateForm(true);
   }
   function closeForm() {
-    setState(true);
+    setStateForm(false);
   }
   return (
 
@@ -58,21 +58,23 @@ function Main({
       </section>
 
       <section className='contacts'>
-        {state ? (
-          <button
-            className='button'
-            onClick={() => openForm()}
-          >
-            Напишите мне
-          </button>
-        ) : (
-          <div>
-            <hr />
-            <ContactForm
-              onSubmit={() => closeForm()}
-            />
-          </div>
-        )}
+        {stateForm ?
+          (
+            <div>
+              <hr />
+              <ContactForm
+                onSubmit={() => closeForm()}
+              />
+            </div>
+          )
+          : (
+            <button
+              className='button'
+              onClick={() => openForm()}
+            >
+              Напишите мне
+            </button>
+          ) }
       </section>
     </main>
 
