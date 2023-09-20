@@ -45,5 +45,6 @@
 @import url(../src/blocks/popup/__title/_big/popup__title_big_picture.css);
 @import url(../src/blocks/popup/__submit-button-deleteCard/popup__submit-button-deleteCard.css);
 @import url(../src/blocks/footer/footer.css);
+@import url(../src/blocks/footer/__content/footer__content.css);
 @import url(../src/blocks/test/__item/test__item.css);
 @import url(../src/blocks/test/__item/_link/test__item_link.css);
